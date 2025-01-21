@@ -6,6 +6,7 @@ const app = express();
 const prisma = new PrismaClient();
 
 app.use(express.json());
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
@@ -34,5 +35,5 @@ app.post('/users', async (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT} OR in reverse proxy dev.sipelikan.go.id`);
+  console.log(`Server running on http://localhost:${PORT} OR in reverse proxy http://dev.sipelikan.go.id`);
 });
