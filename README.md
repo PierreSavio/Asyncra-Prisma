@@ -1,4 +1,4 @@
-# Prisma Asyncra
+# Prisma JS
 
 ## Deskripsi
 Prisma Asyncra adalah sebuah aplikasi berbasis Node.js yang menggunakan **Express.js** dan **Prisma** sebagai ORM untuk mengelola database MySQL. Aplikasi ini dirancang untuk mendemonstrasikan implementasi API sederhana dengan operasi CRUD (Create, Read, Update, Delete).
