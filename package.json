@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Prisma Asyncra adalah sebuah aplikasi berbasis Node.js yang menggunakan **Express.js** dan **Prisma** sebagai ORM untuk mengelola database MySQL. Aplikasi ini dirancang untuk mendemonstrasikan implementasi API sederhana dengan operasi CRUD (Create, Read, Update, Delete).",
   "dependencies": {
     "@prisma/client": "^6.2.1",
     "bcrypt": "^5.1.1",
@@ -21,5 +21,14 @@
     "jsonwebtoken": "^9.0.2",
     "nodemon": "^3.1.9",
     "prisma": "^6.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreSavio/Asyncra-Prisma.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PierreSavio/Asyncra-Prisma/issues"
+  },
+  "homepage": "https://github.com/PierreSavio/Asyncra-Prisma#readme"
 }

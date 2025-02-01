@@ -31,6 +31,7 @@ router.post('/login', cors(), async (req, res) => {
     try{
         const { username, password } = req.body;
         const user = await prisma.user.findUnique({ where: { username } });
+        console.log(user);
 
         if(!user){
             res.json({ message: 'Username tidak ditemukan', resMsg : "usernameNotFound", status: 404 });
